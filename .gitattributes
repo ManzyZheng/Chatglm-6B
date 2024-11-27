@@ -1,0 +1,2 @@
+root/ChatGLM-6B/ptuning/output/**/optimizer.pt filter=lfs diff=lfs merge=lfs -text
+root/ChatGLM-6B/ptuning/output/**/pytorch_model.bin filter=lfs diff=lfs merge=lfs -text
